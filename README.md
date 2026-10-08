@@ -37,8 +37,8 @@ This repository is my SQL for data engineering portfolio: course lessons plus ha
 
 | Step | Where | What you get |
 |---|---|---|
-| **1. Skim** | [`projects/1_EDA/README.md`](./projects/1_EDA/README.md) | Summary, data model, key insights |
-| **2. Read** | [`01_top_demanded_skills.sql`](./projects/1_EDA/01_top_demanded_skills.sql), [`02_top_paying_skills.sql`](./projects/1_EDA/02_top_paying_skills.sql), [`03_optimal_skills.sql`](./projects/1_EDA/03_optimal_skills.sql) | The actual SQL, one question per script |
+| **1. Skim** | [`projects/1_EDA/README.md`](Projects/1_EDA/README.md) | Summary, data model, key insights |
+| **2. Read** | [`01_top_demanded_skills.sql`](Projects/1_EDA/01_top_demanded_skills.sql), [`02_top_paying_skills.sql`](Projects/1_EDA/02_top_paying_skills.sql), [`03_optimal_skills.sql`](Projects/1_EDA/03_optimal_skills.sql) | The actual SQL, one question per script |
 | **3. Run** | DuckDB CLI | Reproduce the results yourself |
 
 ---
@@ -47,7 +47,7 @@ This repository is my SQL for data engineering portfolio: course lessons plus ha
 
 | | |
 |---|---|
-| **Project** | [🗃️ Exploratory Data Analysis with SQL: Job Market Analytics](./projects/1_EDA/README.md) |
+| **Project** | [🗃️ Exploratory Data Analysis with SQL: Job Market Analytics](Projects/1_EDA/README.md) |
 | **Question** | Which skills should a data engineer learn? |
 | **Approach** | 3 queries: demand, salary, and a combined demand/salary score |
 | **Stack** | DuckDB · SQL · Star schema · Git/GitHub |
@@ -114,7 +114,7 @@ duckdb                                            # open the DuckDB CLI
 .read projects/1_EDA/01_top_demanded_skills.sql   # run any project script
 ```
 
-> The scripts expect the star-schema tables (`job_postings_fact`, `company_dim`, `skills_dim`, `skills_job_dim`) to be available in your DuckDB session. See the [project README](./projects/1_EDA/README.md) for the data model.
+> The scripts expect the star-schema tables (`job_postings_fact`, `company_dim`, `skills_dim`, `skills_job_dim`) to be available in your DuckDB session. See the [project README](Projects/1_EDA/README.md) for the data model.
 
 ---
 
