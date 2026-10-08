@@ -27,9 +27,9 @@ A SQL project that mines real-world data engineer job postings to answer one que
 
 **Start here:**
 
-1. [`01_top_demanded_skills.sql`](./01_top_demanded_skills.sql): demand analysis with multi-table joins
-2. [`02_top_paying_skills.sql`](./02_top_paying_skills.sql): salary analysis with aggregations
-3. [`03_optimal_skills.sql`](./03_optimal_skills.sql): demand/salary optimization score
+1. [`01_top_demanded_skills.sql`](./01_Top_Demanded_Skills.sql): demand analysis with multi-table joins
+2. [`02_top_paying_skills.sql`](./02_Top_Paying_Skills.sql): salary analysis with aggregations
+3. [`03_optimal_skills.sql`](./03_Optimal_Skills.sql): demand/salary optimization score
 
 ---
 
@@ -77,9 +77,9 @@ The data lives in a **star schema** data warehouse:
 
 | Query | What it does |
 |---|---|
-| [**Top Demanded Skills**](./01_top_demanded_skills.sql) | Finds the 10 most in-demand skills for remote data engineer roles |
-| [**Top Paying Skills**](./02_top_paying_skills.sql) | Ranks the 25 highest-paying skills with salary and demand metrics |
-| [**Optimal Skills**](./03_optimal_skills.sql) | Scores skills using the natural log of demand combined with median salary |
+| [**Top Demanded Skills**](./01_Top_Demanded_Skills.sql) | Finds the 10 most in-demand skills for remote data engineer roles |
+| [**Top Paying Skills**](./02_Top_Paying_Skills.sql) | Ranks the 25 highest-paying skills with salary and demand metrics |
+| [**Optimal Skills**](./03_Optimal_Skills.sql) | Scores skills using the natural log of demand combined with median salary |
 
 <details>
 <summary><b>🧪 Why log-scale demand?</b></summary>
