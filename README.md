@@ -38,7 +38,7 @@ This repository is my SQL for data engineering portfolio: course lessons plus ha
 | Step | Where | What you get |
 |---|---|---|
 | **1. Skim** | [`projects/1_EDA/README.md`](Projects/1_EDA/README.md) | Summary, data model, key insights |
-| **2. Read** | [`01_top_demanded_skills.sql`](Projects/1_EDA/01_top_demanded_skills.sql), [`02_top_paying_skills.sql`](Projects/1_EDA/02_top_paying_skills.sql), [`03_optimal_skills.sql`](Projects/1_EDA/03_optimal_skills.sql) | The actual SQL, one question per script |
+| **2. Read** | [`01_top_demanded_skills.sql`](Projects/1_EDA/01_Top_Demanded_Skills.sql), [`02_top_paying_skills.sql`](Projects/1_EDA/02_Top_Paying_Skills.sql), [`03_optimal_skills.sql`](Projects/1_EDA/03_Optimal_Skills.sql) | The actual SQL, one question per script |
 | **3. Run** | DuckDB CLI | Reproduce the results yourself |
 
 ---
