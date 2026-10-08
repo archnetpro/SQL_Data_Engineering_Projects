@@ -27,7 +27,7 @@ This repository is my SQL for data engineering portfolio: course lessons plus ha
 
 **Start here:**
 
-👉 [**Project 1: Exploratory Data Analysis with SQL**](../projects/1_EDA/README.md): the full write-up with schema, queries, and key insights
+👉 [**Project 1: Exploratory Data Analysis with SQL**](Projects/1_EDA): the full write-up with schema, queries, and key insights
 
 ---
 
